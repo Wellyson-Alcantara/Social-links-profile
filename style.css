@@ -56,7 +56,7 @@ p {
     padding-bottom: 10px;
 }
 
-nav {
+section {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
