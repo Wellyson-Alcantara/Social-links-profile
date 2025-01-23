@@ -42,7 +42,7 @@ h1 {
     font-size: 25px;
 }
 
-article {
+article > h2{
     color: hsl(75, 94%, 57%);
     font-size: 14px;
     padding-bottom: 20px;
@@ -62,7 +62,7 @@ section {
     justify-content: center;
 }
 
-a {
+.link {
     color: white;
     text-decoration: none;
     background-color: hsl(0, 0%, 12%);
