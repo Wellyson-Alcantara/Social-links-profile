@@ -24,7 +24,7 @@ main {
     border-radius: 10px;
     flex-flow: column nowrap;
     align-items: center;
-    height: 600px;
+    height: 620px;
     width: 400px;
     box-shadow: 5px 5px 10px black;
 }
@@ -32,17 +32,28 @@ main {
 div > img {
     width: 100px;
     border-radius: 50%;
-    margin: 40px 0 10px 0;
+    margin: 40px 0 20px 0;
 }
 
 h1 {
     color: white;
-    font-weight: 500;
-    padding-bottom: 5px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-size: 25px;
 }
 
 article {
     color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+p {
+    color: white;
+    font-weight: 200;
+    font-size: 14px;
+    padding-bottom: 10px;
 }
 
 nav {
@@ -55,6 +66,7 @@ a {
     color: white;
     text-decoration: none;
     background-color: hsl(0, 0%, 12%);
+    font-weight: 600;
     border-radius: 5px;
     width: 330px;
     margin: 10px;
